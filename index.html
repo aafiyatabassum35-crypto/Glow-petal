@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glow Petal | Premium Skincare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffaf6;
+            color: #3d2b1f;
+        }
+
+        /* HEADER */
+        header {
+            background: #fff6ee;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eadfd6;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            color: #c9a24d;
+            margin: 0;
+            font-size: 28px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #3d2b1f;
+            font-size: 14px;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+            url('https://images.unsplash.com/photo-1585238342028-4c4c2bfa4a9d');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero span {
+            color: #c9a24d;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 15px;
+            color: #6b5a4a;
+        }
+
+        .hero button {
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: #c46b7b;
+            border: none;
+            color: white;
+            border-radius: 25px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* SECTION */
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h3 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        /* PRODUCTS */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .card h4 {
+            font-family: 'Playfair Display', serif;
+            margin: 15px 0 5px;
+        }
+
+        .card p {
+            font-size: 13px;
+            color: #6b5a4a;
+        }
+
+        .price {
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .card button {
+            padding: 10px 25px;
+            border-radius: 20px;
+            border: none;
+            background: #c46b7b;
+            color: white;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #fff6ee;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+            color: #6b5a4a;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Glow Petal</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Unveil Your Natural <span>Radiance</span></h2>
+    <p>
+        Handcrafted with the finest botanicals and pure ingredients.
+        Experience premium skincare made with love in India.
+    </p>
+    <button>Shop Collection</button>
+</section>
+
+<section>
+    <h3>Our Collection</h3>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd" alt="">
+            <h4>Radiance Face Serum</h4>
+            <p>Vitamin C infused serum for youthful glow.</p>
+            <div class="price">₹899</div>
+            <button>Add</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6" alt="">
+            <h4>Hydra Moisturizing Cream</h4>
+            <p>Deep hydration with hyaluronic acid.</p>
+            <div class="price">₹749</div>
+            <button>Add</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1615484477778-ca3b77940c25" alt="">
+            <h4>Premium Night Cream</h4>
+            <p>Overnight repair for glowing skin.</p>
+            <div class="price">₹999</div>
+            <button>Add</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Glow Petal | Mini Project | BCCA
+</footer>
+
+</body>
+                                                     </html>
